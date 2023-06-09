@@ -3,3 +3,4 @@
 You can custom data before train AI with MAX78000 object detection ssd by use ai85net-tinierssd model
 ### Prepare dataset
 ![](custom_data.png)
+>In this case, the preparation of the Dataset Finger Number is given as an example.
