@@ -44,7 +44,7 @@ Change your paths for images, text, and csv files, and changes any file names.
 
 ![](images/finger_convert.png)
 
-But in our project, i will be ship label +1 any class becuase label must match `finger_number.py` output too.
+However, in our project, I would ship label +1 of any class because label must also match the output of `finger_number.py`.
 ### Ship label
 
 ![](images/finger_convert_ship_label.png)
@@ -57,3 +57,16 @@ how to place `finger_number.py` see here: https://github.com/WeerawatW/MAX78000-
 Then , Run `finger_dataset_convert_format.py`.
 
 ![](images/finger_convert_shiped_label.png)
+
+### Result
+Renamed images.
+
+![](images/rename_images.png)
+
+You'll get `test_info.csv`.
+
+![](images/converted.png)
+
+### Repeat with these steps to get `train_info.csv` too, we must be use for training step.
+
+![](images/train_info.png)
