@@ -104,5 +104,5 @@ Save file and repeat step 5) for `train_info.csv`
 
 ### Move `train_info.csv` and `test_info.csv` to `processed` folder .
 
-## Congratulation!! , now you have  `processed`, `test`, `train` folder
-### Follow the next steps to train AI and generate c code.
+## Congratulation!! , now you have  `processed`, `test`, `train` folder.
+### Follow the next steps to train AI and generate c code : https://github.com/WeerawatW/MAX78000-hand_gesture_control#1-ai8x-training
