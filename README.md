@@ -19,15 +19,15 @@ In this case, the preparation of the Dataset Finger Number is given as an exampl
 
 ![](images/check_in_zip.png)
 
-### Create `test_label` folder
+### 1) Create `test_label` folder
 
 ![](images/create_label_folder.png)
 
-### Select `_annotation.txt` and `_class.txt`
+### 2) Select `_annotation.txt` and `_class.txt`
 
 ![](images/move_anno.png)
 
-### Move to `test_label` folder
+### 3) Move to `test_label` folder
 
 ![](images/moved_anno.png)
 
@@ -38,7 +38,7 @@ In this case, the preparation of the Dataset Finger Number is given as an exampl
 ### In `_annotation.txt`
 ![](images/in_anno.png)
 
-### You can use `finger_dataset_convert_format.py` to get renamed images and csv file(all parameter must be use to train an AI)
+### 4) You can use `finger_dataset_convert_format.py` to get renamed images and csv file(all parameter must be use to train an AI)
 download `finger_dataset_convert_format.py here: https://github.com/WeerawatW/MAX78000_custom_dataset/blob/cf44a8066d831074396bc79ce04c0f4347fa6c13/github%20python%20file/finger_dataset_convert_format.py
 Change your paths for images, text, and csv files, and changes any file names.
 
@@ -67,6 +67,10 @@ You'll get `test_info.csv`.
 
 ![](images/converted.png)
 
-### Repeat with these steps to get `train_info.csv` too, we must be use for training step.
+### Repeat steps 1 through 4 to get `train_info.csv` too, we must be use for training AI step.
+1) Create `train_label` folder
+3) Move to `test_label` folder 
+4) Change your paths for images, text, and csv files, and changes any file names from `test` to `train` path
+You will got an same result is renamed images and get `train_info.csv`
 
 ![](images/train_info.png)
