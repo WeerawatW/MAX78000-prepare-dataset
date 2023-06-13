@@ -79,3 +79,7 @@ step 4) Change your paths for images, text, and csv files, and changes any file
 You will got an same result is renamed images and get `train_info.csv`
 
 ![](images/train_info.png)
+
+### Open `train_info.csv` and `test_info.csv` with Text Editor
+
+![](images/open_with_text_editor.png)
