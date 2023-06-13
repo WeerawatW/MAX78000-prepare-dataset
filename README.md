@@ -83,3 +83,16 @@ You will got an same result is renamed images and get `train_info.csv`
 ### Open `train_info.csv` and `test_info.csv` with Text Editor
 
 ![](images/open_with_text_editor.png)
+
+### In `train_info.csv` and `test_info.csv`
+
+![](images/in_test_info.png)
+
+### 5) Delete `'` by this step
+
+![](images/find_and_replace.png)
+![](images/replaced.png)
+
+Result
+![](images/replaced.png)
+![](
