@@ -68,9 +68,14 @@ You'll get `test_info.csv`.
 ![](images/converted.png)
 
 ### Repeat steps 1 through 4 to get `train_info.csv` too, we must be use for training AI step.
-1) Create `train_label` folder
-3) Move to `test_label` folder 
-4) Change your paths for images, text, and csv files, and changes any file names from `test` to `train` path
+step 1) Create `train_label` folder
+
+step 3) Move to `test_label` folder 
+
+step 2) Select `_annotation.txt` and `_class.txt`
+
+step 4) Change your paths for images, text, and csv files, and changes any file names from `test` to `train` path
+
 You will got an same result is renamed images and get `train_info.csv`
 
 ![](images/train_info.png)
