@@ -70,9 +70,9 @@ You'll get `test_info.csv`.
 ### Repeat steps 1 through 4 to get `train_info.csv` too, we must be use for training AI step.
 step 1) Create `train_label` folder
 
-step 3) Move to `test_label` folder 
-
 step 2) Select `_annotation.txt` and `_class.txt`
+
+step 3) Move to `test_label` folder 
 
 step 4) Change your paths for images, text, and csv files, and changes any file names from `test` to `train` path
 
@@ -91,8 +91,18 @@ You will got an same result is renamed images and get `train_info.csv`
 ### 5) Delete `'` by this step
 
 ![](images/find_and_replace.png)
+
+Click `Replace All`
+
 ![](images/replaced.png)
 
-Result
-![](images/replaced.png)
-![](
+Save file and repeat step 5) for `train_info.csv`
+
+### Create `processed` folder
+
+![](images/create_processed_folder.png)
+
+### Move `train_info.csv` and `test_info.csv` to `processed` folder .
+
+## Congratulation!! , now you have  `processed`, `test`, `train` folder
+### Follow the next steps to train AI and generate c code.
