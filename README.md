@@ -23,11 +23,13 @@ In this case, the preparation of the Dataset Finger Number is given as an exampl
 
 ![](images/create_label_folder.png)
 
+Why we create test_label ? , because we want to keep the image folder and the .txt format folder separate.
+
 ### 2) Select `_annotation.txt` and `_class.txt` .
 
 ![](images/move_anno.png)
 
-### 3) Move to `test_label` folder.
+### 3) Cut `_annotation.txt` and `_class.txt` file to `test_label` folder.
 
 ![](images/moved_anno.png)
 
@@ -40,7 +42,10 @@ In this case, the preparation of the Dataset Finger Number is given as an exampl
 
 ### 4) You can use `finger_dataset_convert_format.py` to get renamed images and csv file(all parameter must be use to train an AI).
 download `finger_dataset_convert_format.py here: https://github.com/WeerawatW/MAX78000_custom_dataset/blob/cf44a8066d831074396bc79ce04c0f4347fa6c13/github%20python%20file/finger_dataset_convert_format.py
+
 Change your paths for images, text, and csv files, and changes any file names.
+
+That file can convert limit only 2 object in 1 image, if you want to add object more than 2 you can modify `finger_dataset_convert_format.py` code.
 
 ![](images/finger_convert.png)
 
