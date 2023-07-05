@@ -4,18 +4,18 @@ Prepare dataset before train AI with MAX78000 object detection ssd by use ai85ne
 ![](custom_data.png)
 
 In this case, the preparation of the Dataset Finger Number is given as an example.
-### You can labeling images by roboflow and export dataset YOLO v4 PyTorch.
+You can labeling images by roboflow and export dataset YOLO v4 PyTorch.
 ![](roboflow.png)
 
-### After exporting, place that file in your directory.
+After exporting, place that file in your directory.
 
 ![](images/export_file.png)
 
-### Extract file .
+Extract file .
 
 ![](images/extrct_file.png)
 
-### In folder `test` .
+In folder `test` .
 
 ![](images/check_in_zip.png)
 
@@ -33,15 +33,15 @@ Why we create test_label ? , because we want to keep the image folder and the .t
 
 ![](images/moved_anno.png)
 
-### In `_class.txt` .
+In `_class.txt` .
 
 ![](images/in_class.png)
 
-### In `_annotation.txt` .
+In `_annotation.txt` .
 ![](images/in_anno.png)
 
 ### 4) You can use `finger_dataset_convert_format.py` to get renamed images and csv file(all parameter must be use to train an AI).
-download `finger_dataset_convert_format.py here: https://github.com/WeerawatW/MAX78000_custom_dataset/blob/cf44a8066d831074396bc79ce04c0f4347fa6c13/github%20python%20file/finger_dataset_convert_format.py
+download [finger_dataset_convert_format.py](https://github.com/WeerawatW/MAX78000_custom_dataset/blob/cf44a8066d831074396bc79ce04c0f4347fa6c13/github%20python%20file/finger_dataset_convert_format.py) here.
 
 Change your paths for images, text, and csv files, and changes any file names.
 
@@ -50,7 +50,7 @@ Note: that file can convert limit only 2 object in 1 image, if you want to add o
 ![](images/finger_convert.png)
 
 However, in our project, I would ship label +1 of any class because label must also match the output of `finger_number.py` .
-### Ship label.
+Ship label.
 
 ![](images/finger_convert_ship_label.png)
 
@@ -59,7 +59,7 @@ Then , Run `finger_dataset_convert_format.py` .
 
 ![](images/finger_convert_shiped_label.png)
 
-### Result.
+Result.
 After run `finger_dataset_convert_format.py` that program generate `test_rename` folder and `test_info.csv` file.
 
 test_rename (images)
@@ -83,11 +83,11 @@ You will got an same result is renamed images and get `train_info.csv` .
 
 ![](images/train_info.png)
 
-### Open `train_info.csv` and `test_info.csv` with Text Editor.
+Open `train_info.csv` and `test_info.csv` with Text Editor.
 
 ![](images/open_with_text_editor.png)
 
-### In `train_info.csv` and `test_info.csv` .
+In `train_info.csv` and `test_info.csv` .
 
 ![](images/in_test_info.png)
 
@@ -103,12 +103,11 @@ Save file and repeat step 5) for `train_info.csv`
 
 than delete these file `test` and `train`, rename `test_rename` folder -> `test` and `train_rename` folder -> `train` folder.
 
-### Create `processed` folder
+Create `processed` folder
 
 ![](images/create_processed_folder.png)
 
-### Move `train_info.csv` and `test_info.csv` to `processed` folder .
-
+Move `train_info.csv` and `test_info.csv` to `processed` folder .
 
 ### Congratulation!! , now you have  `processed`, `test`, `train` folder.
 Follow the next steps to train AI and generate c code : https://github.com/WeerawatW/MAX78000-hand_gesture_control#1-ai8x-training
