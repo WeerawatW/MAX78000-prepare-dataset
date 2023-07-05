@@ -47,7 +47,7 @@ Change your paths for images, text, and csv files, and changes any file names.
 
 Note: that file can convert limit only 2 object in 1 image, if you want to add object more than 2 you can modify `finger_dataset_convert_format.py` code.
 
-![](images/finger_convert.png)
+![](images/finger_convertV2.png)
 
 ### Ship label.
 For example we have 6 class `finger_number.py` output(1,2,3,4,5,6) but we have labels (0,1,2,3,4,5),
