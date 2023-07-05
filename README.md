@@ -101,12 +101,14 @@ Click `Replace All`
 
 Save file and repeat step 5) for `train_info.csv`
 
+than delete these file `test` and `train`, rename `test_rename` folder -> `test` and `train_rename` folder -> `train` folder.
+
 ### Create `processed` folder
 
 ![](images/create_processed_folder.png)
 
 ### Move `train_info.csv` and `test_info.csv` to `processed` folder .
-than delete these file `test` and `train`, rename `test_rename` folder -> `test` and `train_rename` folder -> `train` folder.
+
 
 ### Congratulation!! , now you have  `processed`, `test`, `train` folder.
 Follow the next steps to train AI and generate c code : https://github.com/WeerawatW/MAX78000-hand_gesture_control#1-ai8x-training
