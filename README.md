@@ -45,7 +45,7 @@ download `finger_dataset_convert_format.py here: https://github.com/WeerawatW/MA
 
 Change your paths for images, text, and csv files, and changes any file names.
 
-That file can convert limit only 2 object in 1 image, if you want to add object more than 2 you can modify `finger_dataset_convert_format.py` code.
+Note: that file can convert limit only 2 object in 1 image, if you want to add object more than 2 you can modify `finger_dataset_convert_format.py` code.
 
 ![](images/finger_convert.png)
 
