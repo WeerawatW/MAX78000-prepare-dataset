@@ -50,7 +50,9 @@ Note: that file can convert limit only 2 object in 1 image, if you want to add o
 ![](images/finger_convert.png)
 
 ### Ship label.
-However, in our project, I would ship label +1 of any class because label must also match the output of `finger_number.py` .
+For example we have 6 class `finger_number.py` output(1,2,3,4,5,6) but we have labels (0,1,2,3,4,5),
+we would ship label +1 of any class because label must also match the output of `finger_number.py` .
+> After ship label we have label (1,2,3,4,5,6).... ok this labels match `finger_number.py` output(1,2,3,4,5,6).
 
 ![](images/finger_convert_ship_label.png)
 
