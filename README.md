@@ -49,21 +49,6 @@ However, in our project, I would ship label +1 of any class because label must a
 
 ![](images/finger_convert_ship_label.png)
 
-### `finger_number.py` output.
-how to place `finger_number.py` see here: https://github.com/WeerawatW/MAX78000-hand_gesture_control#1-ai8x-training
-
-![](images/config_output.png)
-
-The fields have the following meanings:
-*  `name`: The dataset name, the name passed in when training the neural network
-*  `input`: The size of the neural network input, indicates: the width of the input picture is 74, the height is 74, and 3 represents the three channels of RGB(3, 74, 74)
-*  `output`: The neural network outputs classification results , in this project we need to identify 6 classes fingers,and there is 6 output class here.
-*  `loader`: A function that loads a dataset and needs to return a tuple. Each dataset has to be implemented and magical. Returns the size of the dataset. Returns a training sample in the format of a tuple. For neural networks with images as input, a three-dimensional array representing the input images. For the object detection task, tuples, composed of all callout boxes, each labeled box is, where coordinates are normalized. 
-* `collate_fn`: Since each image may have a different number of objects, we need a collate function
-        (to be passed to the DataLoader).
-        This describes how to combine these tensors of different sizes. We use lists.
-        :param batch: an iterable of N sets from __getitem__()
-        :return: a tensor of images, lists of varying-size tensors of bounding boxes and labels
 
 Then , Run `finger_dataset_convert_format.py` .
 
