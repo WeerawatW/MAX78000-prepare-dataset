@@ -19,19 +19,6 @@ In folder `test` .
 
 ![](images/check_in_zip.png)
 
-### 1) Create `test_label` folder.
-
-![](images/create_label_folder.png)
-
-Why we create test_label ? , because we want to keep the image folder and the .txt format folder separate.
-
-### 2) Select `_annotation.txt` and `_class.txt` .
-
-![](images/move_anno.png)
-
-### 3) Cut `_annotation.txt` and `_class.txt` file to `test_label` folder.
-
-![](images/moved_anno.png)
 
 In `_class.txt` .
 
@@ -41,7 +28,7 @@ In `_annotation.txt` .
 ![](images/in_anno.png)
 
 ### 4) You can use `finger_dataset_convert_format.py` to get renamed images and csv file(all parameter must be use to train an AI).
-download [finger_dataset_convert_format.py](https://github.com/WeerawatW/MAX78000_custom_dataset/blob/cf44a8066d831074396bc79ce04c0f4347fa6c13/github%20python%20file/finger_dataset_convert_format.py) here.
+download [finger_dataset_convert_format.py](https://github.com/WeerawatW/MAX78000-prepare-dataset/blob/main/github%20python%20file/finger_dataset_convert_format.py) here.
 
 Change your paths for images, text, and csv files, and changes any file names.
 
