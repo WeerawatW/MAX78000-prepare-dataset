@@ -27,7 +27,7 @@ In `_class.txt` .
 In `_annotation.txt` .
 ![](images/in_anno.png)
 
-### 4) You can use `finger_dataset_convert_format.py` to get renamed images and csv file(all parameter must be use to train an AI).
+### A step) You can use `finger_dataset_convert_format.py` to get renamed images and csv file(all parameter must be use to train an AI).
 download [finger_dataset_convert_format.py](https://github.com/WeerawatW/MAX78000-prepare-dataset/blob/main/github%20python%20file/finger_dataset_convert_format.py) here.
 
 Change your paths for images, text, and csv files, and changes any file names.
@@ -59,14 +59,8 @@ test_info.csv. (annotations)
 
 ![](images/converted.png)
 
-### Repeat steps 1 through 4 to get `train_info.csv` too, we must be use for training AI step.
-step 1) Create `train_label` folder .
-
-step 2) Select `_annotation.txt` and `_class.txt` .
-
-step 3) Move to `test_label` folder .
-
-step 4) Change your paths for images, text, and csv files, and changes any file names from `test` to `train` path.
+### Repeat A step) to get `train_info.csv` too, we must be use for training AI step.
+* Change your paths for images, text, and csv files, and changes any file names from `test` to `train` path.
 
 You will got an same result is renamed images and get `train_info.csv` .
 
