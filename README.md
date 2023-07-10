@@ -3,6 +3,8 @@ Prepare dataset before train AI with MAX78000 object detection ssd by use ai85ne
 ## Prepare dataset.
 ![](custom_data.png)
 
+If you don't have `data` folder create it.
+
 In this case, the preparation of the Dataset Finger Number is given as an example.
 You can labeling images by roboflow and export dataset YOLO v4 PyTorch.
 ![](roboflow.png)
