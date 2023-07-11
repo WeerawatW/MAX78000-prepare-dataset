@@ -13,7 +13,7 @@ After exporting, place that file in your directory.
 
 ![](images/export_file.png)
 
-Open that file and move `test` and `train` folder from into your path . 
+Open that file and move `test` and `train` folder from into your directory . 
 
 ![](images/extrct_file.png)
 
