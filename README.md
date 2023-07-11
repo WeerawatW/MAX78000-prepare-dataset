@@ -30,11 +30,11 @@ In `_annotation.txt` .
 ![](images/in_anno.png)
 
 ### A step) You can use `finger_dataset_convert_format.py` to get renamed images and csv file(all parameter must be use to train an AI).
-download [finger_dataset_convert_format.py](https://github.com/WeerawatW/MAX78000-prepare-dataset/blob/main/github%20python%20file/finger_dataset_convert_format.py) here.
 
-Change your paths for images, text, and csv files, and changes any file names.
+Download [finger_dataset_convert_format.py](https://github.com/WeerawatW/MAX78000-prepare-dataset/blob/main/github%20python%20file/finger_dataset_convert_format.py) here,
+ This script use for convert .txt  to .csv format and rename images files. 
 
-Note: that file can convert limit only 2 object in 1 image, if you want to add object more than 2 you can modify `finger_dataset_convert_format.py` code.
+Note: Change ***mode*** to `test`and change ***path*** to extracted directory, `finger_dataset_convert_format.py` file can convert limit only 2 object in 1 image, if you want to add object more than 2 you can modify `finger_dataset_convert_format.py` code.
 
 ![](images/finger_convertV2.png)
 
