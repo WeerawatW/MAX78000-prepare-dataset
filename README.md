@@ -17,7 +17,7 @@ Open that file and move `test` and `train` folder from into your directory .
 
 ![](images/extrct_file.png)
 
-In folder `test` .
+Inside  `test` folder.
 
 ![](images/check_in_zip.png)
 
