@@ -32,7 +32,7 @@ In `_annotation.txt` .
 ### A step) You can use `finger_dataset_convert_format.py` to get renamed images and csv file(all parameter must be use to train an AI).
 
 Download [finger_dataset_convert_format.py](https://github.com/WeerawatW/MAX78000-prepare-dataset/blob/main/github%20python%20file/finger_dataset_convert_format.py) here,
- This script use for 1)convert .txt  to .csv format 2)rename images files. 
+ This script use for 1)convert .txt  to .csv format(shiping label) 2)rename images files. 
 
 Note: Change ***mode*** to `test`and change ***path*** to extracted directory, `finger_dataset_convert_format.py` file can convert limit only 2 object in 1 image, if you want to add object more than 2 you can modify `finger_dataset_convert_format.py` code.
 
