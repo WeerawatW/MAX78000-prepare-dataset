@@ -68,23 +68,9 @@ You will got an same result is renamed images and get `train_info.csv` .
 
 ![](images/train_info.png)
 
-Open `train_info.csv` and `test_info.csv` with Text Editor.
-
-![](images/open_with_text_editor.png)
-
 In `train_info.csv` and `test_info.csv` .
 
-![](images/in_test_info.png)
-
-### 5) Delete `'` by this step.
-
-![](images/find_and_replace.png)
-
-Click `Replace All`
-
-![](images/replaced.png)
-
-Save file and repeat step 5) for `train_info.csv`
+![](images/train_csv.png)
 
 than delete these file `test` and `train`, rename `test_rename` folder -> `test` and `train_rename` folder -> `train` folder.
 
