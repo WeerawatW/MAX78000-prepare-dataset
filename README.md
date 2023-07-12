@@ -36,19 +36,19 @@ Download [finger_dataset_convert_format.py](https://github.com/WeerawatW/MAX7800
 
 Note: Change ***mode*** to `test`and change ***path*** to extracted directory, `finger_dataset_convert_format.py` file can convert limit only 2 object in 1 image, if you want to add object more than 2 you can modify `finger_dataset_convert_format.py` code.
 
-![](images/finger_convertV2.png)
+![](images/change_your_path.png)
 
 ### Ship label.
 For example we have 6 class `finger_number.py` output(1,2,3,4,5,6) but we have labels (0,1,2,3,4,5),
 we would ship label +1 of any class because label must also match the output of `finger_number.py` .
 > After ship label we have label (1,2,3,4,5,6).... ok this labels match `finger_number.py` output(1,2,3,4,5,6).
 
-![](images/finger_convert_ship_label.png)
+![](images/ship_labels.png)
 
 
 Then , Run `finger_dataset_convert_format.py` .
 
-![](images/finger_convert_shiped_label.png)
+![](images/convert_runedv2.png)
 
 Result.
 After run `finger_dataset_convert_format.py` that program generate `test_rename` folder and `test_info.csv` file.
