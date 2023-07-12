@@ -53,11 +53,11 @@ Then , Run `finger_dataset_convert_format.py` .
 Result.
 After run `finger_dataset_convert_format.py` that program generate `test_rename` folder and `test_info.csv` file.
 
-test_rename (images)
+test_rename (images).
 
 ![](images/rename_images.png)
 
-test_info.csv. (annotations)
+test_info.csv(annotations).
 
 ![](images/converted.png)
 
